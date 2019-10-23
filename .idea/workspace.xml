@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="180ab02d-c7f9-4ae4-909e-f22ff6f79253" name="Default Changelist" comment="" />
+    <list default="true" id="180ab02d-c7f9-4ae4-909e-f22ff6f79253" name="Default Changelist" comment="Python Class Projects CS 151">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/employe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="336">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -52,6 +54,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -220,12 +225,27 @@
       <workItem from="1559164040289" duration="17592000" />
       <workItem from="1559357623200" duration="10086000" />
       <workItem from="1571798152477" duration="375000" />
-      <workItem from="1571798726673" duration="260000" />
+      <workItem from="1571798726673" duration="632000" />
     </task>
+    <task id="LOCAL-00001" summary="Python Class Projects CS 151">
+      <created>1571799116529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571799116529</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Python Class Projects CS 151">
+      <created>1571799237997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571799237997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75654000" />
+    <option name="totallyTimeSpent" value="76026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,7 +259,7 @@
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1638" height="1027" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49315068" visible="true" weight="0.15601504" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49315068" visible="true" weight="0.15601504" />
       <window_info id="Structure" order="1" sideWeight="0.5068493" side_tool="true" weight="0.15079366" />
       <window_info id="Favorites" order="2" sideWeight="0.5068493" side_tool="true" weight="0.15079366" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,10 +270,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49749374" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50062656" side_tool="true" visible="true" weight="0.32740587" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49937344" visible="true" weight="0.32740587" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50250626" side_tool="true" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49937344" weight="0.32740587" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4993895" weight="0.36136365" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -267,6 +287,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="Python Class Projects CS 151" />
+    <option name="LAST_COMMIT_MESSAGE" value="Python Class Projects CS 151" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -307,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/employe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="336">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
