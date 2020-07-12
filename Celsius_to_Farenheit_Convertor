@@ -1,0 +1,12 @@
+#Celsius_to_Fahrenheit
+#This script converts temperature between Fahrenheit to Celsius. To
+#create a python converter for celsius and fahrenheit, you first have to 
+#find out which formula to use. Fahrenheit to Celsius formula: (°F - 32)
+#x 5/9 = °C or in plain english, First subtract 32, then multiply by 5, #then divide by 9.
+#{0:0.1f}".format(celsius) is for Python3
+
+cel = input("Please enter a temperature in Celsius:\n");
+celsius = float(cel);
+fahrenheit= (1.8*celsius) + 32;
+print("{0:0.1f}".format(celsius),"Celsius =","{0:0.1f}".format(fahrenheit),"Fahrenheit" );
+

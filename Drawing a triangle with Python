@@ -1,0 +1,6 @@
+print("Drawing a triangle with Python ")
+print("    /|")
+print("   / |")
+print("  /  |")
+print(" /   |")
+print(" ----")
