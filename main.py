@@ -1,88 +1,49 @@
-from employe import Employee
-import pickle
-import os
-
-def main():
-    obj = Employee()
-
-    exists = os.path.isfile('employee.dat')
-
-    if exists:
-        the_file = open('employee.dat', 'rb')
-        the_employye_list = {}
-        the_employye_list = obj.load(the_file)
-
-        the_file.close()
-
-    else:
-        the_employye_list = {}
+# This is a sample Python script.
+import requests
 
 
-    decision = True
+def currencyConverter():
+    currency_arr = ["EUR", "USD", "GBP", "RUB"]  # New populated array with Currency name
+    rate_arr = [1, 1.17, 0.90, 92.45]  # New populated array witch Currency Rates.
+    flag = False  # Flag For while loop
 
-    while decision:
+    while not flag:
+        currencyToConvert = input("What currency you have? Choose from the list: "
+                                  "\n| 1: EUR | 2: USD | 3: GBP | 4: RUB |\n ")  # User chose
 
-        print("\n\t\t\t<-- Menu -->")
-        print("<-- Please type the menu number -->\n")
+        if int(currencyToConvert) > 4:  # Checking the preconditions
+            print("Wrong choice! Please select available currency!")
+            continue
 
-        print(" -> 1:   Add an Employee \n"
-                              " -> 2:   Find an Employee (By Name)\n"
-                              " -> 3:   Find an Employee (By EID)\n"
-                              " -> 4:   Delete an Employee\n"
-                              " -> 5:   Display Statistics\n"
-                              " -> 6:   Display All Employees\n"
-                              " -> 7:   Exit\n")
-        menu_decision = input()
+        print(f"Your chose is:", currency_arr[int(currencyToConvert) - 1])  # Display the user's choice.
 
-        if menu_decision == "1":
-            decision_2 = True
-            while decision_2:
-                the_employye_list.update(obj.add_new_employye())
+        convertToCurrency = input("What currency would you like to convert? Choose from the list: "
+                                  "\n| 1: EUR | 2: USD | 3: GBP | 4: RUB |\n  ")  # User choice.
 
-                quiestion = input("Would u like to ad another Entry?: Y/N\n")
+        if int(convertToCurrency) > 4:  # Checking the preconditions
+            print("Wrong choice! Please select available currency!")
+            continue
 
-                if quiestion.lower() == "n":
-                    decision_2 = False
+        print(f"Your chose is:", currency_arr[int(convertToCurrency) - 1])  # Display the user's choice.
 
+        the_amount = input("How much money you would you like to to convert? \n")  # Colect he user's amount
 
-        if menu_decision == "2":
-            decision3 = True
-            while decision3:
-                by_name = input("What name u looking for?: ")
-                obj.find_employee_by_name(by_name)
+        convertedCurrency = int(the_amount) * rate_arr[int(currencyToConvert) - 1] * rate_arr[
+            int(convertToCurrency) - 1]  # Calculate the conversion.
 
-                quiestion2 = input("Would u like to ad another search?: Y/N\n")
+        flag = True  # stop while loop
 
-                if quiestion2.lower() == "n":
-                    decision3 = False
+        print(f"Your total amount after conversion is:", convertedCurrency,
+              currency_arr[int(convertToCurrency) - 1])
+        # display the results
 
 
-        if menu_decision == "3":
-            decision3 = True
-            while decision3:
-                by_ID = input("What ID u looking for?: ")
-                obj.find_employee_by_ID(by_ID)
-                quiestion2 = input("Would u like to ad another search?: Y/N\n")
-                if quiestion2.lower() == "n":
-                    decision3 = False
-
-        if menu_decision == "4":
-            delete_name = input("What name u would like to delete?: ")
-            obj.del_entry_in_list(delete_name)
-
-        if menu_decision == "5":
-            obj.get_department_employye()
-            obj.display_statictic()
-
-        if menu_decision == "6":
-            obj.display_the_list(the_employye_list)
-            none = input("Next-->")
-            del none
-
-        if menu_decision == "7":
-            decision = False
-            pickle.dump(the_employye_list, open("employee.dat", "wb"))
-            print("****The file is saved on HD****")
+class Currency_Converter:
+    pass
 
 
-main()
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    a = Currency_Converter()
+    currencyConverter()
+
