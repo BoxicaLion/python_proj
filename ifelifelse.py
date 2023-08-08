@@ -1,4 +1,4 @@
-# all rights reserved Radu Enachi
+
 
 
 _monday = 1
